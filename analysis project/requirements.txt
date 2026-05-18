@@ -1,0 +1,8 @@
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+pyyaml==6.0.1
+sqlalchemy==2.0.31
+pyodbc==5.1.0
+joblib==1.4.2
+pytest==8.2.2

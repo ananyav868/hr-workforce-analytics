@@ -1,0 +1,96 @@
+# HR Workforce Analytics & Attrition Prediction - Pipeline Configuration
+# This file drives all pipeline stages: ingestion, transformation, modeling, SQL loading, and orchestration.
+
+ingestion:
+  # Required columns that must be present in the source CSV
+  required_columns:
+    - employee_id
+    - name
+    - department
+    - job_role
+    - hire_date
+    - age
+    - gender
+    - ethnicity
+    - salary
+    - satisfaction_score
+    - overtime_hours
+    - location
+    - attrition
+
+  # Strategy for handling null values in required fields: "drop" or "fill_default"
+  null_strategy: "drop"
+
+  # Deduplication settings
+  dedup_key: "employee_id"
+  dedup_sort: "hire_date"
+
+transformation:
+  # Encoding strategy for categorical columns: "label" or "onehot"
+  encoding_strategy: "label"
+
+  # Feature derivations driven by config
+  feature_derivations:
+    - name: tenure_months
+      source: hire_date
+      logic: months_since_hire
+
+    - name: age_group
+      source: age
+      logic: bucket
+      params:
+        bins: [0, 25, 35, 45, 55, 100]
+        labels: ["Under 25", "25-34", "35-44", "45-54", "55+"]
+
+    - name: salary_band
+      source: salary
+      logic: bucket
+      params:
+        bins: [0, 40000, 60000, 80000, 100000, 500000]
+        labels: ["Entry", "Mid", "Senior", "Executive", "Top"]
+
+    - name: overtime_flag
+      source: overtime_hours
+      logic: threshold
+      params:
+        threshold: 10
+
+    - name: promotion_recency
+      source: promotion_date
+      logic: months_since_event
+
+model:
+  # Classification algorithms to train and compare
+  algorithms:
+    - logistic_regression
+    - random_forest
+
+  # Train/test split ratio
+  test_size: 0.2
+
+  # Deterministic seed for reproducibility
+  random_seed: 42
+
+  # Per-algorithm hyperparameters
+  hyperparameters:
+    logistic_regression:
+      max_iter: 5000
+      solver: "lbfgs"
+      C: 1.0
+
+    random_forest:
+      n_estimators: 100
+      max_depth: 10
+      min_samples_split: 5
+      min_samples_leaf: 2
+
+database:
+  # SQLAlchemy-style connection string (MySQL via PyMySQL)
+  connection_string: "mysql+pymysql://root:sharma2003@localhost:3306/hr_analytics"
+
+  # Staging table for ETL output before star schema load
+  staging_table: "stg_employee_data"
+
+pipeline:
+  # Path for structured pipeline run log
+  log_path: "logs/pipeline_run.log"

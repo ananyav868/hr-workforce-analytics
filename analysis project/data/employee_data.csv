@@ -1,0 +1,501 @@
+employee_id,name,department,job_role,hire_date,age,gender,ethnicity,salary,satisfaction_score,overtime_hours,promotion_date,location,attrition
+1,Jamal Davis,Engineering,DevOps Engineer,2018-05-23,42,Male,Other,48456,3.4,9,2021-06-30,"Austin, TX, USA",0
+2,Miguel Lopez,Engineering,Software Engineer,2016-04-19,43,Male,Other,68290,2.2,3,,"Chicago, IL, USA",0
+3,Casey Patel,Engineering,Senior Software Engineer,2021-09-01,28,Non-Binary,Black,121096,2.5,0,2022-12-01,"Austin, TX, USA",1
+4,Margaret Taylor,Engineering,QA Engineer,2023-06-01,57,Female,White,54945,3.3,0,,"Austin, TX, USA",0
+5,Sandra Davis,Engineering,Software Engineer,2021-06-01,35,Female,Black,77868,3.2,7,,"Austin, TX, USA",0
+6,James Harris,Sales,Sales Rep,2020-07-20,28,Male,Hispanic,50221,1.8,9,,"Chicago, IL, USA",1
+7,Richard Rodriguez,Marketing,Marketing Analyst,2023-07-17,29,Male,White,53003,3.7,7,,"Chicago, IL, USA",0
+8,James Jones,Engineering,DevOps Engineer,2016-01-28,47,Male,Hispanic,72538,2.8,1,,"New York, NY, USA",0
+9,Stephanie Hill,Operations,Logistics Specialist,2022-01-16,36,Female,Asian,40682,1.6,21,,"New York, NY, USA",1
+10,Ryan Robinson,Sales,Account Executive,2024-05-12,32,Male,White,104698,2.1,8,,"Seattle, WA, USA",0
+11,Thomas Diaz,Finance,Senior Accountant,2016-11-14,58,Male,Black,91663,1.9,6,,"New York, NY, USA",1
+12,Robert Carter,Sales,Sales Rep,2016-11-29,58,Male,Hispanic,71841,1.2,2,,"Chicago, IL, USA",0
+13,Elizabeth Young,Engineering,DevOps Engineer,2016-02-05,25,Female,White,76520,3.5,8,,"New York, NY, USA",0
+14,Jennifer Martin,Engineering,DevOps Engineer,2019-03-15,57,Female,Hispanic,52847,1.7,9,2021-02-14,"New York, NY, USA",0
+15,Fatima Robinson,Engineering,Senior Software Engineer,2016-09-15,56,Female,White,109964,2.0,0,,"Seattle, WA, USA",0
+16,Brian Mitchell,Support,Technical Support Engineer,2020-10-02,37,Male,White,75453,1.3,1,,"Austin, TX, USA",0
+17,Aaron Lewis,Engineering,Senior Software Engineer,2022-11-09,39,Male,Asian,98287,1.7,0,,"Austin, TX, USA",0
+18,Keisha Mitchell,Marketing,Content Strategist,2017-11-11,33,Female,Hispanic,58823,2.6,17,,"San Francisco, CA, USA",0
+19,Keisha Jones,HR,Compensation Analyst,2023-07-18,40,Female,Hispanic,38701,2.9,2,,"Austin, TX, USA",1
+20,Fatima Wright,Engineering,Engineering Manager,2017-09-07,54,Female,White,107532,2.9,3,2020-03-29,"Chicago, IL, USA",0
+21,Eric Thompson,Sales,Senior Sales Rep,2018-11-10,23,Male,Black,99368,1.5,9,,"San Francisco, CA, USA",0
+22,Betty Okafor,Marketing,Marketing Analyst,2015-01-20,28,Female,Asian,78789,4.2,17,2019-02-08,"San Francisco, CA, USA",1
+23,Laura Ali,HR,HR Manager,2021-06-10,43,Female,White,97401,2.4,1,,"Seattle, WA, USA",0
+24,Riley Hall,Marketing,Marketing Manager,2022-12-24,53,Non-Binary,Black,130529,4.9,5,2024-05-16,"Chicago, IL, USA",0
+25,Tyler Rodriguez,Sales,Senior Sales Rep,2016-09-25,33,Male,White,88764,3.2,10,,"Seattle, WA, USA",0
+26,Barbara Perez,Sales,Sales Manager,2015-06-03,50,Female,Hispanic,126083,1.1,0,2019-03-07,"Austin, TX, USA",1
+27,Nathan Hill,Engineering,Engineering Manager,2020-09-01,57,Male,Hispanic,100093,4.5,2,2023-06-21,"San Francisco, CA, USA",0
+28,Ashley White,Finance,Accountant,2017-06-14,37,Female,Hispanic,75488,3.7,6,2021-01-25,"Chicago, IL, USA",0
+29,Carmen Martinez,Engineering,Senior Software Engineer,2024-02-07,50,Female,Hispanic,79729,1.3,3,,"San Francisco, CA, USA",1
+30,Darius Hernandez,Engineering,Software Engineer,2024-03-02,50,Male,Black,78870,2.7,6,,"Chicago, IL, USA",0
+31,Brandon Thompson,Operations,Operations Analyst,2019-03-29,53,Male,Hispanic,72734,2.5,6,,"New York, NY, USA",0
+32,Nancy Mensah,Operations,Operations Analyst,2021-11-07,62,Female,White,81942,2.9,5,2023-01-14,"Chicago, IL, USA",0
+33,Stephanie Thomas,Engineering,Senior Software Engineer,2018-04-24,60,Female,White,85675,2.8,17,2021-02-09,"Austin, TX, USA",0
+34,Sofia Miller,Engineering,Software Engineer,2023-03-13,34,Female,Asian,76014,3.1,2,,"Seattle, WA, USA",0
+35,Laura Hall,Sales,Sales Manager,2019-12-16,25,Female,Asian,142594,2.7,18,2021-06-05,"Seattle, WA, USA",0
+36,Jessica Mensah,Finance,Financial Analyst,2020-06-19,62,Female,Hispanic,50034,2.9,0,,"Seattle, WA, USA",0
+37,Nathan Thomas,Support,Support Agent,2019-08-27,42,Male,Other,69231,3.1,7,,"New York, NY, USA",0
+38,Lisa Lopez,Support,Technical Support Engineer,2015-12-24,31,Female,Asian,67572,2.1,1,,"San Francisco, CA, USA",0
+39,Wei Clark,Sales,Sales Rep,2021-11-13,38,Male,White,67709,4.6,13,,"Seattle, WA, USA",0
+40,Darius Jones,Operations,Operations Manager,2015-08-12,54,Male,Asian,150000,4.0,3,,"New York, NY, USA",0
+41,James Lee,Finance,Accountant,2019-07-27,27,Male,White,86312,4.1,23,,"New York, NY, USA",1
+42,Darius Gonzalez,Engineering,Software Engineer,2016-05-02,25,Male,White,71198,1.5,8,,"Chicago, IL, USA",0
+43,Barbara Robinson,Operations,Operations Analyst,2016-09-15,51,Female,Black,65320,4.1,8,,"Austin, TX, USA",0
+44,Sandra Clark,Sales,Senior Sales Rep,2023-04-20,55,Female,Hispanic,117028,3.1,9,,"San Francisco, CA, USA",0
+45,Rebecca Jones,HR,HR Manager,2015-07-24,55,Female,White,114677,2.4,6,,"Chicago, IL, USA",1
+46,Laura Williams,Marketing,Marketing Analyst,2016-11-02,53,Female,White,48729,1.2,1,2021-09-30,"New York, NY, USA",0
+47,Mark Sanchez,Engineering,Software Engineer,2020-09-25,48,Male,Asian,65548,4.5,20,2021-10-20,"Austin, TX, USA",0
+48,Sandra Campbell,Engineering,QA Engineer,2020-10-26,43,Female,White,61646,1.1,2,,"Chicago, IL, USA",0
+49,Amit Patel,Engineering,Engineering Manager,2020-09-06,36,Male,White,94875,1.8,3,2022-01-28,"Seattle, WA, USA",0
+50,Donna Campbell,Marketing,Content Strategist,2016-09-14,57,Female,Hispanic,77394,1.5,2,2021-04-11,"San Francisco, CA, USA",1
+51,Keisha Kim,Engineering,QA Engineer,2024-05-14,43,Female,White,43441,1.7,18,,"Chicago, IL, USA",1
+52,Elizabeth Johnson,Support,Technical Support Engineer,2020-02-14,41,Female,Other,75577,1.7,8,,"Chicago, IL, USA",0
+53,William Sanchez,Sales,Sales Rep,2016-06-15,25,Male,Hispanic,51260,3.4,2,,"Chicago, IL, USA",0
+54,William Roberts,Marketing,Content Strategist,2021-01-28,31,Male,Black,49177,1.4,1,2024-03-14,"Chicago, IL, USA",0
+55,Fatima Carter,Operations,Logistics Specialist,2020-05-23,26,Female,Hispanic,47017,4.8,1,2023-11-26,"Austin, TX, USA",0
+56,Mark Okafor,Operations,Operations Analyst,2020-08-14,51,Male,Hispanic,51114,4.6,3,,"San Francisco, CA, USA",0
+57,Omar Allen,Marketing,Marketing Analyst,2022-06-05,44,Male,White,53155,3.1,0,2023-07-13,"Chicago, IL, USA",0
+58,Terrence Chen,Operations,Operations Analyst,2020-07-28,36,Male,Hispanic,73592,5.0,11,,"Chicago, IL, USA",0
+59,Christopher Jones,Sales,Senior Sales Rep,2020-04-16,31,Male,Black,87280,1.5,4,,"Seattle, WA, USA",0
+60,Samuel Walker,Marketing,Marketing Manager,2024-03-08,57,Male,Hispanic,110921,4.6,7,,"San Francisco, CA, USA",0
+61,Kevin Harris,Engineering,QA Engineer,2022-06-23,54,Male,Black,79561,3.8,20,,"San Francisco, CA, USA",0
+62,Patrick Wilson,Operations,Supply Chain Coordinator,2018-12-01,61,Male,White,45223,1.7,1,,"New York, NY, USA",0
+63,Amanda Campbell,Finance,Senior Accountant,2021-06-18,30,Female,Black,78163,2.6,6,,"San Francisco, CA, USA",0
+64,Tanya Khan,HR,Compensation Analyst,2016-12-10,45,Female,Asian,43753,4.1,2,2022-01-10,"New York, NY, USA",0
+65,Avery Carter,HR,HR Specialist,2017-09-16,28,Non-Binary,White,74214,4.6,1,2019-11-18,"Seattle, WA, USA",0
+66,Margaret Patel,Marketing,Marketing Analyst,2020-12-01,23,Female,White,63131,1.4,3,2023-09-04,"San Francisco, CA, USA",1
+67,Stephanie Singh,Operations,Supply Chain Coordinator,2024-05-13,49,Female,White,53428,2.0,1,,"New York, NY, USA",0
+68,Joseph King,Engineering,DevOps Engineer,2016-03-27,56,Male,Hispanic,83320,2.6,3,2018-02-19,"New York, NY, USA",0
+69,Wei Lewis,Support,Support Team Lead,2022-07-19,39,Male,White,98753,2.5,7,2024-04-04,"Seattle, WA, USA",0
+70,Monique Chen,Operations,Operations Analyst,2022-07-24,43,Female,White,64131,2.9,1,,"New York, NY, USA",0
+71,Valentina Rodriguez,Operations,Logistics Specialist,2022-06-06,43,Female,Hispanic,60161,2.1,0,,"Seattle, WA, USA",0
+72,Gabriela Harris,Operations,Supply Chain Coordinator,2015-12-08,59,Female,White,56851,4.5,7,,"New York, NY, USA",0
+73,Amanda Ramirez,Engineering,DevOps Engineer,2022-11-06,23,Female,Asian,41663,1.3,14,,"Austin, TX, USA",0
+74,Raj Singh,Support,Support Agent,2024-04-06,45,Male,Black,44756,2.0,7,,"Chicago, IL, USA",0
+75,Thomas Rodriguez,Finance,Accountant,2015-03-02,61,Male,Hispanic,76637,2.0,13,,"Austin, TX, USA",0
+76,Hiroshi Baker,Support,Support Team Lead,2019-03-01,38,Male,White,96154,4.5,10,,"Seattle, WA, USA",0
+77,Laura Lopez,Finance,Accountant,2019-04-11,36,Female,White,44786,4.7,1,,"San Francisco, CA, USA",0
+78,Joseph Roberts,Operations,Supply Chain Coordinator,2017-09-16,44,Male,Hispanic,45403,3.1,8,,"Chicago, IL, USA",0
+79,Tanya Flores,Finance,Finance Manager,2015-02-08,47,Female,Asian,121108,4.2,3,,"Seattle, WA, USA",0
+80,Terrence King,Engineering,Engineering Manager,2023-10-18,51,Male,White,114217,1.3,0,,"New York, NY, USA",0
+81,Andre Campbell,Engineering,QA Engineer,2016-01-24,31,Male,Black,72170,2.9,2,,"San Francisco, CA, USA",0
+82,Steven Rodriguez,Sales,Sales Manager,2017-08-21,36,Male,White,116144,4.1,0,,"Chicago, IL, USA",0
+83,Morgan Khan,Support,Support Team Lead,2018-08-26,29,Non-Binary,Hispanic,117703,1.9,1,2021-09-16,"San Francisco, CA, USA",0
+84,Tyler Carter,Support,Senior Support Agent,2019-11-12,30,Male,White,87807,4.0,9,2021-04-19,"Chicago, IL, USA",0
+85,Thomas Brown,Operations,Supply Chain Coordinator,2019-06-29,35,Male,Black,57081,2.9,0,,"San Francisco, CA, USA",0
+86,Latoya White,Engineering,DevOps Engineer,2018-04-14,36,Female,Black,61126,1.9,9,2020-11-26,"San Francisco, CA, USA",0
+87,Jennifer Tanaka,Finance,Financial Analyst,2020-06-19,61,Female,Black,54198,4.2,8,,"Chicago, IL, USA",0
+88,Terrence Scott,Operations,Supply Chain Coordinator,2020-12-20,48,Male,White,80870,1.1,13,2022-12-17,"Seattle, WA, USA",0
+89,Mark Gonzalez,Sales,Senior Sales Rep,2018-06-01,50,Male,Hispanic,84723,3.2,0,2020-08-21,"Seattle, WA, USA",0
+90,Christopher Green,Operations,Logistics Specialist,2016-07-25,53,Male,Hispanic,55880,4.2,1,,"Austin, TX, USA",0
+91,Karen Park,Engineering,DevOps Engineer,2021-03-07,22,Female,White,80562,4.9,11,2023-03-22,"Austin, TX, USA",1
+92,Steven Young,Finance,Senior Accountant,2018-12-24,32,Male,White,106504,1.4,15,,"Seattle, WA, USA",0
+93,Mark Martin,Engineering,DevOps Engineer,2022-12-06,43,Male,White,79158,3.9,19,,"Austin, TX, USA",0
+94,James Ali,Engineering,Engineering Manager,2023-11-09,59,Male,Other,92697,2.5,15,,"Austin, TX, USA",1
+95,Sandra Clark,HR,Compensation Analyst,2020-05-17,28,Female,Hispanic,44066,3.5,12,,"New York, NY, USA",0
+96,Eric Park,Operations,Supply Chain Coordinator,2017-12-23,23,Male,Black,58816,1.3,3,,"Chicago, IL, USA",0
+97,Jessica Hernandez,Finance,Accountant,2021-09-14,43,Female,Hispanic,43305,1.1,5,2023-05-13,"Austin, TX, USA",1
+98,Mei Allen,Engineering,Senior Software Engineer,2023-11-12,34,Female,Asian,101387,4.2,1,,"New York, NY, USA",0
+99,Thomas Garcia,Engineering,Software Engineer,2016-12-16,30,Male,Asian,85910,4.2,3,,"Chicago, IL, USA",0
+100,Maria Williams,Engineering,DevOps Engineer,2023-04-14,62,Female,Hispanic,38702,1.6,16,2024-05-28,"Austin, TX, USA",0
+101,Jasmine Patel,Engineering,DevOps Engineer,2016-10-23,39,Female,White,59945,3.0,0,,"Seattle, WA, USA",1
+102,Matthew Carter,Support,Senior Support Agent,2017-08-14,51,Male,White,122891,3.9,11,,"San Francisco, CA, USA",0
+103,Latoya Scott,HR,Compensation Analyst,2019-12-03,23,Female,White,73413,2.1,3,2022-05-15,"Seattle, WA, USA",0
+104,Carlos Thompson,Support,Support Team Lead,2021-05-29,35,Male,Hispanic,126445,2.0,16,,"New York, NY, USA",0
+105,Aaron Ahmed,Sales,Sales Rep,2015-09-18,49,Male,Hispanic,64083,1.5,28,,"Chicago, IL, USA",0
+106,Patrick Martinez,Operations,Operations Analyst,2020-12-20,33,Male,White,51106,3.8,1,2022-04-19,"Chicago, IL, USA",0
+107,Aisha Campbell,HR,Recruiter,2017-08-14,36,Female,Black,49998,1.5,2,2021-07-07,"Seattle, WA, USA",0
+108,Mark Lopez,Support,Technical Support Engineer,2018-06-28,41,Male,Black,46648,3.6,16,,"Chicago, IL, USA",0
+109,Ashley Roberts,Support,Support Agent,2017-10-11,29,Female,White,73006,4.5,1,,"San Francisco, CA, USA",0
+110,Justin Davis,Operations,Supply Chain Coordinator,2020-02-07,61,Male,White,78901,3.4,22,,"Seattle, WA, USA",0
+111,William Rodriguez,Sales,Sales Manager,2022-09-29,54,Male,White,139202,4.0,16,,"Austin, TX, USA",0
+112,Rosa Thompson,Operations,Operations Analyst,2018-09-29,40,Female,Hispanic,56718,2.3,7,,"Seattle, WA, USA",0
+113,Jasmine Carter,Engineering,Senior Software Engineer,2024-02-21,56,Female,Black,102570,3.5,4,,"San Francisco, CA, USA",0
+114,Yuki Sanchez,Sales,Senior Sales Rep,2015-10-31,46,Female,Asian,112272,3.4,11,,"San Francisco, CA, USA",0
+115,Tanya Singh,Finance,Finance Manager,2021-09-12,37,Female,Hispanic,109748,1.2,21,2023-08-11,"Seattle, WA, USA",0
+116,Yuki Campbell,Marketing,SEO Specialist,2015-04-16,49,Female,Hispanic,76834,2.1,4,2019-10-23,"Austin, TX, USA",1
+117,Angela Mensah,Sales,Senior Sales Rep,2019-12-04,57,Female,Hispanic,116472,3.1,0,2024-01-18,"Seattle, WA, USA",0
+118,Christopher White,Operations,Operations Analyst,2023-10-31,29,Male,White,47062,3.9,15,,"New York, NY, USA",1
+119,Barbara Campbell,Operations,Operations Analyst,2016-09-22,56,Female,Black,64994,2.2,2,2021-12-16,"San Francisco, CA, USA",0
+120,Laura Johnson,HR,HR Manager,2019-04-27,56,Female,White,123728,3.8,30,2023-09-19,"San Francisco, CA, USA",0
+121,Gabriela Allen,Engineering,Software Engineer,2020-03-29,57,Female,White,56412,2.8,14,,"Austin, TX, USA",0
+122,Jennifer Park,Engineering,Senior Software Engineer,2022-08-06,24,Female,Asian,93932,5.0,4,2024-01-02,"Austin, TX, USA",1
+123,Phoenix Ahmed,Sales,Senior Sales Rep,2016-09-24,37,Non-Binary,Hispanic,115838,2.2,30,,"Seattle, WA, USA",1
+124,Blair Flores,Operations,Operations Analyst,2018-01-12,22,Non-Binary,White,67107,4.0,1,,"Austin, TX, USA",0
+125,Darius Johnson,Engineering,DevOps Engineer,2022-09-09,62,Male,White,61576,2.6,4,,"Chicago, IL, USA",0
+126,Angela Lopez,Operations,Supply Chain Coordinator,2023-11-04,59,Female,Black,75544,4.2,12,,"New York, NY, USA",0
+127,Amit Moore,Support,Technical Support Engineer,2015-09-23,35,Male,White,78084,4.4,20,,"Seattle, WA, USA",0
+128,Rowan Kim,Engineering,Senior Software Engineer,2017-08-21,55,Non-Binary,Hispanic,94265,3.2,27,,"Seattle, WA, USA",0
+129,Elizabeth Young,Engineering,Senior Software Engineer,2017-12-19,50,Female,White,98380,3.3,1,2020-01-04,"Chicago, IL, USA",0
+130,Stephanie Jackson,Engineering,Software Engineer,2018-03-25,30,Female,White,52678,3.8,0,,"New York, NY, USA",0
+131,Wei Okafor,Sales,Account Executive,2019-02-17,59,Male,White,139973,1.8,3,,"Seattle, WA, USA",0
+132,Riley Anderson,Operations,Operations Manager,2020-03-26,42,Non-Binary,White,125560,1.0,2,,"San Francisco, CA, USA",1
+133,Daniel Lee,Engineering,Senior Software Engineer,2019-05-07,47,Male,White,93448,4.2,7,,"San Francisco, CA, USA",0
+134,Emily Tanaka,Support,Senior Support Agent,2016-07-25,30,Female,Other,85655,4.7,2,,"Austin, TX, USA",0
+135,Jessica Carter,Support,Support Team Lead,2017-05-05,36,Female,Asian,128781,5.0,4,2018-07-30,"Chicago, IL, USA",0
+136,Emily Jones,Finance,Senior Accountant,2020-05-04,41,Female,White,92520,4.1,8,2022-07-19,"Seattle, WA, USA",0
+137,Karen Nguyen,Marketing,Marketing Analyst,2018-05-31,53,Female,White,75265,4.9,8,2024-05-31,"Austin, TX, USA",0
+138,Karen Lee,Sales,Sales Manager,2017-02-08,57,Female,Black,136154,4.0,13,,"Chicago, IL, USA",1
+139,Thomas Harris,Marketing,SEO Specialist,2023-04-21,61,Male,Black,43380,4.7,9,,"New York, NY, USA",0
+140,Hassan Carter,Support,Senior Support Agent,2021-01-05,33,Male,Hispanic,113029,4.4,10,,"Austin, TX, USA",1
+141,Aaron Perez,Engineering,Senior Software Engineer,2017-02-08,49,Male,Hispanic,92543,4.3,1,,"Austin, TX, USA",0
+142,Jennifer Park,Engineering,QA Engineer,2024-05-31,40,Female,Black,74474,1.6,6,,"Austin, TX, USA",0
+143,Dakota King,HR,Compensation Analyst,2021-06-07,46,Non-Binary,White,65053,2.4,12,,"San Francisco, CA, USA",0
+144,Mark Ahmed,Operations,Logistics Specialist,2022-03-19,55,Male,Hispanic,72917,2.9,5,2023-07-07,"Seattle, WA, USA",0
+145,Maria Torres,Sales,Sales Manager,2017-05-20,59,Female,White,100246,2.4,12,2019-10-27,"Chicago, IL, USA",1
+146,Linda Tanaka,Finance,Senior Accountant,2020-04-22,45,Female,Black,94282,3.0,0,2024-05-28,"Austin, TX, USA",0
+147,Michelle Mitchell,Engineering,Software Engineer,2018-04-21,57,Female,Hispanic,52076,1.3,12,,"New York, NY, USA",0
+148,Linda Martin,Finance,Financial Analyst,2020-10-26,48,Female,White,74416,4.8,1,,"San Francisco, CA, USA",0
+149,Darius Garcia,Support,Support Team Lead,2022-09-05,38,Male,White,85899,1.9,3,,"Austin, TX, USA",0
+150,William Sanchez,Engineering,Senior Software Engineer,2023-02-26,25,Male,Black,96670,4.1,1,,"Austin, TX, USA",0
+151,Amanda Robinson,Engineering,QA Engineer,2017-06-21,45,Female,Black,59029,2.0,2,,"San Francisco, CA, USA",0
+152,Wei Tanaka,HR,Recruiter,2019-01-04,41,Male,White,55826,4.1,0,2021-11-05,"Chicago, IL, USA",0
+153,Angela Sanchez,Finance,Senior Accountant,2020-08-30,35,Female,Asian,92103,1.8,6,,"New York, NY, USA",0
+154,Alex Roberts,Sales,Sales Rep,2021-07-02,25,Non-Binary,White,69610,4.9,2,,"Chicago, IL, USA",1
+155,Elizabeth Rivera,Operations,Operations Manager,2017-05-02,27,Female,Black,109055,1.9,0,,"Chicago, IL, USA",0
+156,Carmen Nguyen,Support,Support Team Lead,2020-01-29,31,Female,White,109244,4.5,6,,"Austin, TX, USA",0
+157,Eric Chen,Sales,Sales Rep,2023-05-07,49,Male,Asian,61948,3.2,6,2024-05-08,"Austin, TX, USA",0
+158,Stephanie Harris,Marketing,Marketing Manager,2021-12-26,40,Female,White,102761,2.4,11,2023-03-07,"New York, NY, USA",0
+159,Angela Okafor,HR,HR Manager,2022-09-23,41,Female,Black,128573,4.6,1,,"Austin, TX, USA",0
+160,Jamal Torres,Operations,Operations Manager,2019-11-17,25,Male,Asian,144483,4.0,3,,"Seattle, WA, USA",0
+161,Linda Ramirez,Support,Support Team Lead,2015-09-04,59,Female,Hispanic,99869,1.4,0,,"San Francisco, CA, USA",1
+162,Yuki Rodriguez,Marketing,Marketing Manager,2018-11-19,59,Female,White,150000,2.3,2,,"Austin, TX, USA",0
+163,Justin Diaz,Engineering,QA Engineer,2022-02-06,54,Male,Hispanic,53380,4.0,8,,"New York, NY, USA",0
+164,Amit Allen,Finance,Senior Accountant,2017-12-25,41,Male,Other,92425,3.7,1,,"New York, NY, USA",0
+165,Michael Ali,Engineering,Engineering Manager,2021-03-24,46,Male,Hispanic,139337,4.0,18,2023-04-20,"Chicago, IL, USA",1
+166,Elizabeth Khan,HR,Recruiter,2018-10-09,48,Female,Hispanic,61838,4.5,6,2024-01-21,"Chicago, IL, USA",0
+167,Justin Nguyen,Engineering,Software Engineer,2015-03-24,44,Male,Hispanic,94758,3.8,14,,"New York, NY, USA",0
+168,Margaret Tanaka,Engineering,QA Engineer,2023-03-03,59,Female,White,47559,3.3,2,,"Seattle, WA, USA",0
+169,Michael Khan,Operations,Operations Manager,2019-06-10,25,Male,Hispanic,147410,1.3,2,,"Austin, TX, USA",0
+170,Casey Mitchell,Engineering,QA Engineer,2023-05-19,41,Non-Binary,Asian,41158,3.7,14,,"New York, NY, USA",1
+171,Nancy Rivera,HR,HR Manager,2017-03-30,36,Female,White,126721,3.5,7,,"Austin, TX, USA",0
+172,Matthew Hall,Finance,Senior Accountant,2020-06-30,24,Male,White,108362,3.0,8,2023-01-23,"Austin, TX, USA",0
+173,Angela Smith,Marketing,Marketing Manager,2018-12-18,50,Female,White,124572,2.9,7,,"New York, NY, USA",1
+174,Miguel Sanchez,Operations,Operations Analyst,2016-12-04,60,Male,White,65113,4.7,4,2019-06-09,"New York, NY, USA",0
+175,Marcus Hill,Finance,Senior Accountant,2017-06-25,34,Male,Black,87242,2.6,4,,"Seattle, WA, USA",0
+176,Maria Hill,Operations,Logistics Specialist,2023-10-30,49,Female,White,63977,2.0,0,,"San Francisco, CA, USA",1
+177,Aaliyah Moore,Engineering,QA Engineer,2017-07-24,58,Female,Hispanic,72960,1.3,3,,"Seattle, WA, USA",0
+178,Christopher Wilson,Engineering,Software Engineer,2019-04-13,39,Male,Black,50215,4.0,6,,"San Francisco, CA, USA",1
+179,James Singh,Engineering,Engineering Manager,2016-07-27,36,Male,White,131480,3.9,8,,"Chicago, IL, USA",0
+180,Sofia Ali,Marketing,Content Strategist,2019-12-29,51,Female,White,79912,4.7,4,2022-07-10,"San Francisco, CA, USA",0
+181,Brandon Hill,Engineering,Engineering Manager,2015-01-07,55,Male,White,115804,2.4,1,2018-07-08,"Austin, TX, USA",1
+182,Daniel Carter,Operations,Logistics Specialist,2017-07-18,59,Male,Hispanic,82294,3.2,0,2022-07-14,"Seattle, WA, USA",0
+183,Rowan Brown,Engineering,DevOps Engineer,2021-10-31,47,Non-Binary,Black,56462,2.3,1,,"San Francisco, CA, USA",0
+184,Hiroshi Wright,Marketing,Content Strategist,2020-08-05,44,Male,Other,61958,3.4,1,2024-05-08,"Austin, TX, USA",0
+185,Darius Perez,Marketing,Content Strategist,2018-10-09,44,Male,Black,51140,1.2,3,2020-08-03,"Chicago, IL, USA",0
+186,Brandon Mensah,Engineering,Senior Software Engineer,2020-12-26,56,Male,Black,90070,3.9,2,2023-10-20,"San Francisco, CA, USA",0
+187,Barbara Taylor,Marketing,Marketing Manager,2020-08-08,58,Female,White,150000,3.9,6,,"Seattle, WA, USA",0
+188,Dorothy Green,Support,Support Team Lead,2021-01-03,33,Female,White,107828,4.0,5,2022-08-18,"Chicago, IL, USA",0
+189,Lisa Ahmed,Operations,Operations Manager,2015-03-23,38,Female,White,129507,3.4,13,,"New York, NY, USA",1
+190,Miguel Young,Engineering,DevOps Engineer,2021-10-26,29,Male,Hispanic,41471,1.9,10,,"Seattle, WA, USA",1
+191,Amanda Thomas,Operations,Logistics Specialist,2016-11-26,33,Female,Black,71483,5.0,1,,"Chicago, IL, USA",0
+192,Gabriela Gonzalez,Support,Technical Support Engineer,2023-10-05,61,Female,Hispanic,72613,3.8,0,,"San Francisco, CA, USA",1
+193,Omar Hernandez,Marketing,Content Strategist,2015-07-07,56,Male,White,74737,1.0,0,,"San Francisco, CA, USA",1
+194,Ashley Nguyen,Engineering,Engineering Manager,2021-02-09,23,Female,Hispanic,110523,2.1,13,,"Chicago, IL, USA",1
+195,Emily Green,Support,Support Agent,2017-12-12,51,Female,Asian,64331,1.8,10,,"San Francisco, CA, USA",0
+196,Jasmine Roberts,Marketing,Content Strategist,2017-10-08,35,Female,White,54858,3.3,1,,"San Francisco, CA, USA",0
+197,Raj Hernandez,Finance,Financial Analyst,2019-01-04,62,Male,Asian,41855,1.2,2,,"San Francisco, CA, USA",0
+198,Patrick Ramirez,Operations,Supply Chain Coordinator,2015-05-17,32,Male,Asian,81694,4.2,17,,"New York, NY, USA",0
+199,Emily Ali,Marketing,Marketing Analyst,2020-07-03,44,Female,Hispanic,78913,1.6,2,,"Seattle, WA, USA",0
+200,Laura Robinson,Engineering,DevOps Engineer,2019-10-13,30,Female,Other,66639,2.4,25,,"New York, NY, USA",0
+201,Amit Baker,Engineering,Software Engineer,2017-11-02,62,Male,Hispanic,65145,4.4,1,,"Chicago, IL, USA",0
+202,Stephanie Hall,Sales,Sales Manager,2024-02-17,55,Female,Hispanic,98005,4.9,0,,"New York, NY, USA",0
+203,Christopher Kim,Engineering,Engineering Manager,2023-09-09,31,Male,White,110625,1.5,4,,"New York, NY, USA",0
+204,Aaron Scott,Finance,Finance Manager,2015-04-29,47,Male,Hispanic,150000,3.1,29,2020-12-28,"Chicago, IL, USA",0
+205,Richard Young,Sales,Sales Rep,2020-10-03,53,Male,White,62049,2.5,0,2023-01-29,"Seattle, WA, USA",0
+206,Lisa Davis,HR,Compensation Analyst,2019-01-19,54,Female,White,48228,4.6,9,,"San Francisco, CA, USA",0
+207,Maria Brown,Support,Support Team Lead,2020-01-22,47,Female,Black,135305,4.9,0,2024-02-08,"Austin, TX, USA",0
+208,Michelle Hernandez,Operations,Logistics Specialist,2017-12-27,34,Female,Asian,62182,2.0,3,,"Austin, TX, USA",0
+209,Justin Carter,Marketing,Marketing Analyst,2021-11-11,26,Male,Hispanic,39875,2.2,11,2023-03-12,"Seattle, WA, USA",0
+210,Donna Wilson,Engineering,DevOps Engineer,2017-09-16,31,Female,Asian,82075,4.6,8,2022-12-10,"Austin, TX, USA",0
+211,Justin Diaz,Sales,Sales Rep,2021-05-10,33,Male,Hispanic,63576,3.5,30,2023-12-01,"Seattle, WA, USA",0
+212,Jordan King,Engineering,QA Engineer,2016-05-09,29,Non-Binary,Black,55015,4.1,25,,"Seattle, WA, USA",0
+213,Hiroshi Ramirez,Engineering,DevOps Engineer,2019-10-18,49,Male,White,74907,3.1,13,2024-01-08,"New York, NY, USA",0
+214,Aaliyah Rodriguez,Support,Support Agent,2016-08-23,48,Female,White,77465,2.6,11,,"New York, NY, USA",0
+215,Darius Chen,HR,Recruiter,2018-01-10,50,Male,Black,70047,1.8,20,2022-07-22,"Chicago, IL, USA",1
+216,Joshua Perez,Finance,Accountant,2022-08-12,55,Male,White,57260,3.3,4,2023-11-28,"Austin, TX, USA",0
+217,Barbara Lee,Operations,Operations Manager,2015-03-25,35,Female,Asian,127267,3.4,1,2017-11-28,"Austin, TX, USA",0
+218,Amit Torres,Sales,Sales Manager,2024-03-08,22,Male,White,140381,3.8,11,,"Chicago, IL, USA",0
+219,Tyler Hall,Sales,Sales Rep,2016-11-11,26,Male,White,43497,3.1,0,,"Seattle, WA, USA",0
+220,Michael Ramirez,Engineering,QA Engineer,2022-08-30,33,Male,White,56593,3.4,18,,"Chicago, IL, USA",0
+221,Wei Hill,Operations,Operations Analyst,2015-11-06,37,Male,White,74360,1.3,6,,"Chicago, IL, USA",1
+222,Jasmine Martinez,Sales,Sales Manager,2019-05-03,43,Female,White,115779,4.0,0,,"New York, NY, USA",0
+223,Jordan Flores,Finance,Financial Analyst,2023-12-14,36,Non-Binary,White,77162,3.9,15,,"Chicago, IL, USA",1
+224,Ryan Chen,Engineering,Software Engineer,2018-01-04,24,Male,White,72584,3.2,2,,"Austin, TX, USA",0
+225,Michelle Nelson,Engineering,Senior Software Engineer,2019-12-30,56,Female,White,123775,1.9,9,,"New York, NY, USA",0
+226,Barbara Clark,Operations,Operations Analyst,2024-01-25,37,Female,White,71465,2.6,1,,"Austin, TX, USA",0
+227,Melissa Patel,Engineering,DevOps Engineer,2023-05-21,58,Female,White,76308,3.7,0,,"Seattle, WA, USA",0
+228,Miguel Jones,Sales,Senior Sales Rep,2017-06-06,49,Male,Black,116757,2.7,9,2022-06-18,"Austin, TX, USA",0
+229,Stephanie Wilson,Sales,Senior Sales Rep,2017-01-29,44,Female,Hispanic,126814,4.8,19,2022-06-14,"Seattle, WA, USA",0
+230,Benjamin Diaz,Finance,Senior Accountant,2019-01-31,62,Male,Black,99461,2.6,2,2023-10-30,"Chicago, IL, USA",0
+231,Eric Sanchez,Engineering,QA Engineer,2022-02-13,60,Male,Hispanic,42355,3.5,8,2023-11-29,"Chicago, IL, USA",0
+232,Jasmine Mitchell,Sales,Sales Manager,2017-12-18,27,Female,Black,137470,4.8,0,2021-12-24,"Chicago, IL, USA",0
+233,Melissa Scott,Sales,Sales Rep,2015-10-11,55,Female,White,72555,4.7,6,,"San Francisco, CA, USA",0
+234,Jasmine Garcia,Engineering,Senior Software Engineer,2019-12-24,59,Female,White,97346,4.0,19,,"Austin, TX, USA",0
+235,Aisha Taylor,Engineering,QA Engineer,2019-02-25,62,Female,White,43318,4.5,10,2022-03-02,"New York, NY, USA",1
+236,Daniel Mensah,Engineering,Software Engineer,2015-11-27,24,Male,Asian,70774,2.3,17,2020-02-26,"Chicago, IL, USA",0
+237,Sofia Smith,Marketing,Marketing Manager,2016-05-08,48,Female,White,127439,3.3,6,2022-01-19,"Seattle, WA, USA",0
+238,Tanya Khan,Sales,Sales Manager,2024-02-06,59,Female,Black,99195,2.7,5,,"San Francisco, CA, USA",1
+239,Jamal Park,Support,Support Team Lead,2023-10-06,45,Male,Black,118951,3.6,2,,"Seattle, WA, USA",1
+240,Richard Williams,Marketing,SEO Specialist,2015-03-10,41,Male,Hispanic,52772,2.8,6,2016-05-08,"San Francisco, CA, USA",0
+241,Jasmine Singh,Operations,Operations Manager,2020-07-18,53,Female,White,115923,1.9,3,,"Chicago, IL, USA",0
+242,David Adams,Operations,Supply Chain Coordinator,2021-09-27,44,Male,Black,58555,1.6,8,2024-04-06,"Austin, TX, USA",1
+243,Derek Lee,Marketing,SEO Specialist,2023-06-17,23,Male,White,49612,2.4,4,,"Chicago, IL, USA",0
+244,Wei King,Engineering,DevOps Engineer,2021-03-03,30,Male,White,45322,2.1,3,,"Chicago, IL, USA",0
+245,Brian Williams,Sales,Senior Sales Rep,2016-03-24,31,Male,White,92282,3.2,6,2017-11-17,"Seattle, WA, USA",0
+246,Valentina White,Marketing,Marketing Analyst,2018-09-10,47,Female,Asian,78108,4.1,24,,"New York, NY, USA",0
+247,Yuki Kim,Finance,Finance Manager,2020-09-03,53,Female,White,139664,4.0,5,,"New York, NY, USA",0
+248,Mark Lewis,Operations,Operations Analyst,2016-03-04,40,Male,Hispanic,61082,2.6,8,2018-03-22,"San Francisco, CA, USA",1
+249,Carmen Scott,Engineering,Software Engineer,2023-07-18,36,Female,White,39263,4.2,4,,"Chicago, IL, USA",1
+250,Mark Flores,Marketing,SEO Specialist,2022-11-30,25,Male,White,66902,1.0,1,,"New York, NY, USA",0
+251,Sandra Mitchell,HR,HR Specialist,2015-09-07,46,Female,White,70854,2.4,9,,"Chicago, IL, USA",0
+252,Susan Ramirez,Sales,Senior Sales Rep,2023-02-20,30,Female,Hispanic,83275,3.4,4,,"San Francisco, CA, USA",0
+253,Angela Mensah,Finance,Finance Manager,2016-09-07,34,Female,White,115496,1.9,4,,"Austin, TX, USA",0
+254,Nancy Patel,Marketing,Content Strategist,2022-08-15,47,Female,Black,56776,3.1,8,,"Seattle, WA, USA",0
+255,Anthony Clark,Operations,Operations Manager,2023-05-05,57,Male,White,138471,2.8,30,,"San Francisco, CA, USA",0
+256,James Torres,Engineering,Engineering Manager,2016-08-30,43,Male,White,114962,1.2,8,2023-06-03,"Chicago, IL, USA",0
+257,Betty Nguyen,Operations,Supply Chain Coordinator,2018-04-20,39,Female,White,78740,4.3,18,,"Chicago, IL, USA",0
+258,Monique Walker,Sales,Sales Rep,2020-03-19,36,Female,Other,85974,4.4,4,2022-08-08,"Seattle, WA, USA",0
+259,Jorge Scott,Engineering,DevOps Engineer,2024-05-19,53,Male,Hispanic,77268,2.6,3,,"Seattle, WA, USA",0
+260,Jamal Harris,HR,Recruiter,2020-04-27,41,Male,Hispanic,56390,3.5,8,,"Seattle, WA, USA",0
+261,Dorothy Nguyen,Marketing,SEO Specialist,2021-02-14,46,Female,Hispanic,70359,2.5,22,2023-11-20,"New York, NY, USA",0
+262,Kendall Smith,HR,Recruiter,2016-09-07,28,Non-Binary,White,75875,3.7,14,2018-11-14,"New York, NY, USA",0
+263,Dorothy Robinson,Marketing,SEO Specialist,2015-03-31,59,Female,Asian,59785,3.3,2,,"San Francisco, CA, USA",0
+264,Ryan Davis,Sales,Senior Sales Rep,2016-10-01,50,Male,Black,109399,3.8,7,,"Chicago, IL, USA",0
+265,Brandon Rodriguez,Engineering,Engineering Manager,2018-06-11,56,Male,Hispanic,139863,3.5,22,,"Austin, TX, USA",0
+266,Joshua Adams,Sales,Senior Sales Rep,2019-03-27,51,Male,White,116350,1.7,5,2022-03-23,"San Francisco, CA, USA",1
+267,Hiroshi Diaz,Engineering,QA Engineer,2020-10-04,61,Male,Black,44966,3.5,1,2023-07-15,"Austin, TX, USA",0
+268,Gabriela Sanchez,Support,Senior Support Agent,2020-06-06,43,Female,White,86334,2.1,0,,"Chicago, IL, USA",0
+269,Sofia Martinez,Sales,Sales Manager,2024-05-19,61,Female,White,90215,4.5,4,,"San Francisco, CA, USA",0
+270,Thomas Perez,Sales,Senior Sales Rep,2017-08-29,34,Male,White,122084,2.3,6,,"New York, NY, USA",0
+271,Amanda Moore,Finance,Financial Analyst,2023-07-07,34,Female,White,73661,4.4,4,,"Austin, TX, USA",0
+272,Emily Carter,Marketing,Marketing Analyst,2017-10-13,58,Female,Asian,70050,2.6,28,,"Seattle, WA, USA",0
+273,Benjamin Kim,Operations,Supply Chain Coordinator,2018-06-14,51,Male,Black,64360,3.4,6,,"New York, NY, USA",0
+274,Matthew Carter,HR,HR Specialist,2015-11-04,52,Male,Asian,72398,1.9,16,2023-07-05,"Seattle, WA, USA",0
+275,Betty Taylor,Marketing,Marketing Manager,2020-06-19,57,Female,White,100482,4.7,0,2022-04-29,"San Francisco, CA, USA",0
+276,Aisha Harris,HR,HR Manager,2016-12-22,37,Female,White,132355,4.7,3,,"San Francisco, CA, USA",0
+277,Joshua Flores,HR,HR Specialist,2023-11-26,40,Male,White,58587,1.2,0,,"Austin, TX, USA",0
+278,Reese King,Engineering,QA Engineer,2019-02-13,37,Non-Binary,Hispanic,79721,1.8,20,,"Chicago, IL, USA",0
+279,Jamal Walker,Engineering,Senior Software Engineer,2017-01-02,38,Male,Hispanic,126531,4.7,3,2019-05-09,"Chicago, IL, USA",0
+280,Lisa White,Support,Support Team Lead,2015-04-14,42,Female,White,134864,3.4,9,2020-08-03,"Seattle, WA, USA",0
+281,Tanya Scott,Engineering,Software Engineer,2023-09-12,34,Female,White,51440,4.2,2,,"Chicago, IL, USA",0
+282,Miguel Lopez,Support,Senior Support Agent,2023-01-26,29,Male,Other,84938,2.0,9,2024-05-23,"Seattle, WA, USA",0
+283,Angela Rodriguez,Finance,Finance Manager,2023-06-09,47,Female,White,101554,1.5,22,,"Chicago, IL, USA",1
+284,Latoya Thompson,Sales,Sales Manager,2019-02-03,52,Female,White,112754,1.4,4,,"Chicago, IL, USA",1
+285,Eric Lee,Engineering,Engineering Manager,2023-10-20,54,Male,Asian,147428,3.9,8,,"San Francisco, CA, USA",0
+286,Stephanie Brown,Support,Technical Support Engineer,2017-01-08,48,Female,White,71482,4.6,4,2020-10-12,"Chicago, IL, USA",0
+287,Hiroshi Tanaka,Engineering,Software Engineer,2019-05-14,59,Male,Black,69892,1.1,8,,"Austin, TX, USA",0
+288,Aisha Ali,Sales,Account Executive,2022-07-08,51,Female,Hispanic,110658,1.2,0,,"Seattle, WA, USA",0
+289,Terrence Lee,Operations,Operations Manager,2022-04-12,36,Male,Black,113281,4.2,3,2023-09-03,"New York, NY, USA",0
+290,Margaret Campbell,Operations,Operations Manager,2015-09-26,29,Female,Black,125837,4.7,1,,"New York, NY, USA",0
+291,Maria Martin,Engineering,Senior Software Engineer,2021-01-02,27,Female,Asian,96399,4.4,2,2023-02-04,"Chicago, IL, USA",0
+292,Amit Jackson,HR,Compensation Analyst,2020-12-09,41,Male,Hispanic,78501,3.4,3,2022-02-11,"Chicago, IL, USA",0
+293,Mark Torres,Sales,Sales Manager,2017-03-18,36,Male,Hispanic,111954,1.2,4,2021-07-17,"Chicago, IL, USA",1
+294,Sarah Hill,Support,Technical Support Engineer,2017-05-25,23,Female,Hispanic,86439,3.5,4,,"San Francisco, CA, USA",1
+295,Latoya Nelson,Operations,Operations Manager,2020-05-29,44,Female,White,145277,2.5,19,2023-01-26,"New York, NY, USA",0
+296,Jennifer Adams,Finance,Finance Manager,2018-11-12,32,Female,White,114184,1.8,15,,"Chicago, IL, USA",0
+297,Daniel Gonzalez,Support,Technical Support Engineer,2016-08-21,24,Male,Hispanic,64601,2.2,1,2017-12-23,"Seattle, WA, USA",0
+298,Aisha King,Operations,Operations Manager,2017-10-13,46,Female,White,138129,4.2,0,2023-09-18,"Chicago, IL, USA",0
+299,Susan Singh,Engineering,Senior Software Engineer,2022-12-01,38,Female,Asian,79453,1.9,4,2024-02-28,"New York, NY, USA",0
+300,Matthew Okafor,HR,HR Manager,2022-05-13,34,Male,White,96388,3.3,11,2024-05-21,"Austin, TX, USA",0
+301,Emily Tanaka,Operations,Operations Analyst,2015-03-31,57,Female,Hispanic,50068,2.3,16,2022-12-11,"San Francisco, CA, USA",0
+302,Yuki Williams,Sales,Senior Sales Rep,2018-12-30,36,Female,Hispanic,89623,4.2,11,2020-10-05,"Austin, TX, USA",0
+303,Wei Robinson,Finance,Accountant,2017-04-09,40,Male,White,86190,2.3,2,2023-07-30,"Austin, TX, USA",0
+304,Linda Roberts,Engineering,DevOps Engineer,2015-10-05,39,Female,Hispanic,73050,1.3,30,2022-09-25,"Austin, TX, USA",0
+305,Amanda Mensah,Sales,Sales Rep,2015-10-15,52,Female,Hispanic,72510,2.7,3,,"Seattle, WA, USA",0
+306,Nathan Brown,Engineering,Senior Software Engineer,2017-06-26,28,Male,White,89526,5.0,2,2022-05-05,"San Francisco, CA, USA",0
+307,Derek Roberts,Operations,Logistics Specialist,2015-07-14,32,Male,White,77803,3.4,9,,"Austin, TX, USA",0
+308,Angela Flores,HR,HR Specialist,2018-10-29,54,Female,White,48140,1.5,7,,"Chicago, IL, USA",1
+309,Jordan Lopez,Engineering,Senior Software Engineer,2015-07-20,61,Non-Binary,White,118188,4.4,5,,"Chicago, IL, USA",0
+310,Luis Ahmed,Sales,Account Executive,2022-01-15,35,Male,White,119340,1.1,3,,"Seattle, WA, USA",0
+311,Matthew Perez,Finance,Finance Manager,2023-06-21,27,Male,Asian,122993,4.6,12,,"Austin, TX, USA",0
+312,Ashley Khan,Finance,Finance Manager,2019-11-14,26,Female,White,127992,3.9,3,,"Seattle, WA, USA",0
+313,Marcus Park,Sales,Account Executive,2016-01-07,55,Male,White,128301,2.2,17,2020-10-15,"New York, NY, USA",0
+314,Jorge Flores,Support,Support Team Lead,2019-07-27,34,Male,White,108766,3.2,3,,"Austin, TX, USA",0
+315,Andre Thompson,Engineering,DevOps Engineer,2020-10-02,53,Male,Black,81614,3.3,13,2022-01-20,"New York, NY, USA",0
+316,Yuki Mitchell,Finance,Financial Analyst,2022-07-19,54,Female,Hispanic,63912,3.8,11,,"Chicago, IL, USA",0
+317,Melissa Ramirez,Engineering,QA Engineer,2023-12-16,43,Female,White,78661,2.9,7,,"Austin, TX, USA",0
+318,Sandra Walker,Engineering,Senior Software Engineer,2016-02-15,35,Female,Other,127619,2.1,4,,"New York, NY, USA",0
+319,Susan Hernandez,Marketing,Marketing Analyst,2020-03-08,60,Female,Hispanic,64434,4.6,0,2022-10-29,"Seattle, WA, USA",0
+320,Daniel Young,Marketing,Marketing Manager,2024-05-12,28,Male,Hispanic,146131,1.5,7,,"San Francisco, CA, USA",0
+321,Mark Wilson,Finance,Accountant,2023-03-30,56,Male,White,56540,2.6,0,,"Chicago, IL, USA",1
+322,Sofia Thompson,Support,Senior Support Agent,2020-02-16,46,Female,Black,121075,2.9,7,,"Chicago, IL, USA",0
+323,Raj Brown,HR,HR Manager,2016-12-30,38,Male,White,107071,2.5,0,2020-07-06,"Chicago, IL, USA",0
+324,Jasmine Wilson,Engineering,Engineering Manager,2022-01-19,39,Female,Hispanic,127770,2.5,7,,"San Francisco, CA, USA",0
+325,Melissa Hernandez,Finance,Senior Accountant,2020-01-02,23,Female,White,114297,4.8,1,,"San Francisco, CA, USA",0
+326,Melissa Jackson,Sales,Senior Sales Rep,2018-10-12,58,Female,White,85859,1.6,12,,"New York, NY, USA",0
+327,Jamal Diaz,HR,Recruiter,2015-06-21,36,Male,White,49974,4.6,3,2023-01-26,"Chicago, IL, USA",0
+328,Michael Carter,Operations,Operations Manager,2019-01-13,55,Male,White,147345,4.1,7,,"Austin, TX, USA",0
+329,Darius Perez,Operations,Operations Analyst,2019-04-27,53,Male,Black,56702,3.2,3,,"Chicago, IL, USA",0
+330,Steven Wright,Sales,Senior Sales Rep,2016-08-11,27,Male,White,132106,2.1,1,,"Chicago, IL, USA",1
+331,Anthony Williams,HR,HR Specialist,2017-10-13,30,Male,Black,87346,4.3,18,,"Austin, TX, USA",1
+332,Laura Roberts,Support,Technical Support Engineer,2019-08-17,33,Female,Asian,76340,1.7,0,,"Seattle, WA, USA",0
+333,Mark Ramirez,Finance,Financial Analyst,2019-01-04,39,Male,White,42883,4.1,4,,"Austin, TX, USA",0
+334,Robert Sanchez,Marketing,SEO Specialist,2022-04-07,29,Male,White,58691,1.2,7,2024-02-01,"San Francisco, CA, USA",1
+335,Lisa Jackson,Sales,Senior Sales Rep,2022-08-29,56,Female,White,121076,3.0,7,,"Chicago, IL, USA",0
+336,Keisha Jackson,Operations,Operations Analyst,2023-10-03,49,Female,White,38701,1.6,4,,"Seattle, WA, USA",0
+337,Aisha Mitchell,Sales,Senior Sales Rep,2022-11-27,56,Female,White,85050,4.5,19,,"New York, NY, USA",0
+338,Jamal Thompson,Sales,Account Executive,2020-02-22,53,Male,Hispanic,104750,1.8,3,2024-03-08,"Chicago, IL, USA",0
+339,Ryan Clark,Sales,Sales Rep,2020-11-26,27,Male,Black,56345,3.1,1,,"Austin, TX, USA",0
+340,Marcus Johnson,Sales,Sales Rep,2020-12-21,46,Male,Black,78836,1.4,3,2024-01-30,"Seattle, WA, USA",0
+341,Brandon Hall,Support,Technical Support Engineer,2015-06-02,56,Male,Black,52146,3.3,17,,"Chicago, IL, USA",0
+342,Sarah Smith,Engineering,QA Engineer,2022-12-29,40,Female,White,47474,3.2,7,,"New York, NY, USA",1
+343,Carlos Ahmed,Sales,Sales Manager,2016-01-16,39,Male,White,143073,3.6,8,,"Austin, TX, USA",0
+344,David Singh,HR,HR Manager,2016-09-14,26,Male,Black,145379,5.0,10,2020-07-11,"Chicago, IL, USA",1
+345,Daniel Wright,Engineering,Engineering Manager,2018-04-02,58,Male,Asian,129328,2.0,11,,"San Francisco, CA, USA",0
+346,Valentina Lee,Sales,Senior Sales Rep,2015-06-28,44,Female,Black,121374,1.6,3,2017-11-01,"San Francisco, CA, USA",0
+347,William Williams,Sales,Senior Sales Rep,2022-12-09,56,Male,Hispanic,109788,2.6,2,2024-04-30,"New York, NY, USA",0
+348,Margaret Carter,Support,Support Team Lead,2021-11-19,40,Female,Asian,124095,2.1,13,2024-04-01,"Chicago, IL, USA",0
+349,Samuel Martinez,Sales,Senior Sales Rep,2017-07-02,55,Male,Asian,128064,2.3,5,,"San Francisco, CA, USA",0
+350,Daniel Nguyen,Marketing,SEO Specialist,2020-08-30,35,Male,White,68922,4.8,16,2023-08-25,"Chicago, IL, USA",0
+351,Avery Tanaka,HR,Recruiter,2021-04-03,25,Non-Binary,Black,42397,2.9,15,2023-10-07,"Chicago, IL, USA",0
+352,Aaliyah Torres,Sales,Sales Rep,2018-11-13,62,Female,White,89693,4.7,4,,"Seattle, WA, USA",0
+353,Tyler Moore,Sales,Account Executive,2019-05-25,35,Male,White,113245,1.9,9,,"Seattle, WA, USA",1
+354,Jasmine Robinson,Support,Senior Support Agent,2015-03-20,34,Female,White,100424,3.1,4,,"Seattle, WA, USA",0
+355,John Taylor,Finance,Finance Manager,2023-09-01,58,Male,White,115758,4.1,1,,"San Francisco, CA, USA",0
+356,John Brown,Finance,Senior Accountant,2022-03-25,42,Male,White,122330,4.7,3,2023-10-11,"Seattle, WA, USA",0
+357,Eric Perez,Operations,Operations Analyst,2018-12-16,43,Male,Black,77883,3.9,2,,"Austin, TX, USA",0
+358,Jorge Allen,Engineering,QA Engineer,2021-06-23,49,Male,White,47180,1.8,0,2022-07-10,"Seattle, WA, USA",0
+359,Emily Anderson,Operations,Supply Chain Coordinator,2019-12-27,39,Female,Hispanic,75288,5.0,5,,"San Francisco, CA, USA",0
+360,Reese Lewis,Marketing,Marketing Analyst,2019-11-22,42,Non-Binary,Asian,58404,1.5,0,,"Chicago, IL, USA",1
+361,Brandon Campbell,Engineering,Software Engineer,2017-08-08,28,Male,White,52197,2.8,30,,"Chicago, IL, USA",1
+362,Kevin Singh,Sales,Account Executive,2017-09-11,38,Male,Other,144031,3.9,2,2022-10-25,"Chicago, IL, USA",0
+363,William Torres,Support,Support Team Lead,2022-10-07,22,Male,Asian,124225,4.4,0,,"New York, NY, USA",0
+364,Stephanie Miller,Marketing,Content Strategist,2022-11-01,28,Female,White,80445,2.8,7,,"San Francisco, CA, USA",0
+365,Jasmine Green,Finance,Financial Analyst,2021-12-23,41,Female,Hispanic,57189,1.9,1,,"Seattle, WA, USA",0
+366,Phoenix Scott,Support,Support Agent,2023-10-07,48,Non-Binary,White,69790,4.9,3,,"San Francisco, CA, USA",0
+367,Keisha Green,Support,Support Team Lead,2024-04-08,62,Female,Hispanic,111524,1.3,3,,"San Francisco, CA, USA",1
+368,Emily Allen,Support,Support Team Lead,2019-09-02,31,Female,Hispanic,117237,3.3,5,,"Austin, TX, USA",0
+369,John Scott,Sales,Sales Rep,2023-12-31,28,Male,Hispanic,53811,3.3,15,,"Chicago, IL, USA",1
+370,Miguel Taylor,Support,Senior Support Agent,2018-10-07,45,Male,Black,100643,2.2,20,2020-10-08,"San Francisco, CA, USA",0
+371,Rebecca Martinez,Engineering,QA Engineer,2020-11-18,38,Female,Asian,64806,4.6,0,2022-12-26,"Chicago, IL, USA",1
+372,Benjamin Torres,Engineering,Senior Software Engineer,2016-12-29,40,Male,Black,112739,3.5,14,2023-07-07,"San Francisco, CA, USA",0
+373,Robert Nelson,Sales,Sales Manager,2022-12-25,47,Male,White,148517,4.0,13,,"New York, NY, USA",1
+374,Joseph Lewis,Sales,Sales Manager,2015-05-28,60,Male,Hispanic,115822,3.2,1,2017-11-15,"New York, NY, USA",0
+375,Justin Hernandez,Sales,Senior Sales Rep,2019-05-04,23,Male,Other,121947,3.8,2,,"San Francisco, CA, USA",0
+376,Terrence Rodriguez,Engineering,Software Engineer,2024-02-08,44,Male,White,41728,4.4,22,,"San Francisco, CA, USA",0
+377,Andre Mensah,Marketing,SEO Specialist,2015-10-05,27,Male,White,55130,3.5,3,2018-01-26,"Chicago, IL, USA",0
+378,Susan Khan,Engineering,DevOps Engineer,2016-01-13,26,Female,White,82407,1.5,1,2020-04-03,"Seattle, WA, USA",0
+379,Angela White,Sales,Account Executive,2017-11-03,56,Female,Hispanic,128481,1.4,6,,"New York, NY, USA",1
+380,Matthew Hill,Engineering,Senior Software Engineer,2020-11-23,25,Male,Black,113534,3.3,1,2022-10-18,"San Francisco, CA, USA",0
+381,Matthew Rodriguez,Marketing,Marketing Manager,2022-05-07,23,Male,Black,122807,4.2,1,2024-01-14,"San Francisco, CA, USA",0
+382,Valentina Martin,Sales,Sales Rep,2018-02-26,45,Female,White,78597,4.4,3,,"San Francisco, CA, USA",1
+383,Karen Tanaka,Sales,Senior Sales Rep,2020-10-05,29,Female,White,90125,2.7,0,2022-09-21,"Austin, TX, USA",0
+384,Terrence Young,Marketing,Marketing Manager,2017-01-07,47,Male,Black,122552,2.5,10,,"New York, NY, USA",0
+385,Raj Martin,Operations,Operations Analyst,2019-11-17,56,Male,White,69074,3.5,17,2021-10-24,"Austin, TX, USA",0
+386,Keisha Campbell,Finance,Finance Manager,2023-07-11,34,Female,Black,128902,2.9,11,,"New York, NY, USA",1
+387,Kevin Ahmed,Engineering,Engineering Manager,2018-09-24,26,Male,White,120707,3.2,5,2022-05-21,"Austin, TX, USA",0
+388,John Torres,Support,Technical Support Engineer,2018-05-12,28,Male,Black,48987,4.1,4,,"Seattle, WA, USA",0
+389,Sandra Adams,Operations,Logistics Specialist,2024-05-19,28,Female,White,48571,4.0,5,,"San Francisco, CA, USA",0
+390,Rowan Hall,Operations,Operations Analyst,2016-10-24,48,Non-Binary,Black,85544,4.9,14,,"San Francisco, CA, USA",1
+391,Miguel Ramirez,Marketing,Content Strategist,2022-09-04,30,Male,Hispanic,55496,1.5,21,,"San Francisco, CA, USA",1
+392,Sofia Brown,Engineering,Software Engineer,2018-05-08,54,Female,White,88676,1.1,2,2019-12-14,"Chicago, IL, USA",1
+393,Luis Moore,Finance,Accountant,2015-08-03,37,Male,Other,67008,2.7,16,2020-10-13,"New York, NY, USA",0
+394,Rosa Hall,Sales,Sales Manager,2022-03-20,36,Female,White,105878,2.5,8,2023-11-25,"Chicago, IL, USA",0
+395,Maria Carter,Operations,Logistics Specialist,2016-03-08,59,Female,Hispanic,59048,2.0,21,2023-11-01,"Chicago, IL, USA",0
+396,Maria Thomas,Operations,Logistics Specialist,2017-08-17,34,Female,Black,56510,4.0,9,,"San Francisco, CA, USA",0
+397,Michael Walker,Engineering,Engineering Manager,2023-08-22,52,Male,Black,94798,3.1,2,,"Seattle, WA, USA",0
+398,Aaliyah Scott,Operations,Operations Analyst,2024-03-25,41,Female,White,45376,2.3,22,,"San Francisco, CA, USA",0
+399,Christopher Martinez,Sales,Sales Manager,2022-07-01,59,Male,White,122611,4.8,8,,"New York, NY, USA",1
+400,Fatima Chen,Sales,Account Executive,2021-01-03,61,Female,White,129850,4.0,17,,"New York, NY, USA",0
+401,James Miller,HR,Recruiter,2015-03-21,48,Male,Black,89915,2.8,2,,"Seattle, WA, USA",0
+402,Miguel Smith,Operations,Supply Chain Coordinator,2017-01-14,24,Male,White,66908,2.4,0,2023-12-10,"San Francisco, CA, USA",0
+403,Kendall Kim,Sales,Sales Rep,2017-04-28,34,Non-Binary,Asian,76658,3.7,6,,"Chicago, IL, USA",0
+404,Wei Jackson,Engineering,Senior Software Engineer,2018-10-28,38,Male,White,122795,4.5,0,2020-05-18,"Austin, TX, USA",0
+405,Mark Jones,Engineering,DevOps Engineer,2017-02-18,39,Male,Black,53946,4.3,0,,"Austin, TX, USA",0
+406,Amit Perez,Sales,Sales Manager,2024-04-15,48,Male,White,101459,1.9,1,,"Austin, TX, USA",0
+407,Aisha Moore,Operations,Operations Manager,2021-10-11,60,Female,White,121991,3.6,3,2024-03-04,"New York, NY, USA",0
+408,Amit Moore,Marketing,Content Strategist,2017-10-24,26,Male,Other,79186,4.6,1,2022-01-18,"Austin, TX, USA",0
+409,Aaron Smith,Sales,Sales Manager,2022-04-19,28,Male,Hispanic,110914,2.2,29,,"San Francisco, CA, USA",0
+410,Susan Diaz,Finance,Finance Manager,2020-08-04,62,Female,Hispanic,101110,1.3,7,,"San Francisco, CA, USA",0
+411,Jorge Williams,Engineering,Senior Software Engineer,2019-05-22,24,Male,Asian,84264,1.9,2,,"San Francisco, CA, USA",1
+412,David Young,Engineering,Engineering Manager,2022-08-02,31,Male,White,101654,4.5,4,,"Seattle, WA, USA",1
+413,Andre Harris,Engineering,Engineering Manager,2016-10-28,61,Male,White,134547,1.9,8,,"Seattle, WA, USA",0
+414,Justin Perez,Sales,Senior Sales Rep,2021-09-09,24,Male,Hispanic,111913,4.9,2,,"Austin, TX, USA",0
+415,Andrew Hall,Marketing,Marketing Analyst,2022-08-09,56,Male,White,64392,3.3,7,,"Chicago, IL, USA",0
+416,Jorge Martin,Sales,Sales Rep,2021-09-09,55,Male,Asian,46156,4.5,9,2022-11-17,"San Francisco, CA, USA",0
+417,Yuki Davis,Operations,Operations Analyst,2019-07-08,58,Female,White,61494,3.6,0,,"San Francisco, CA, USA",0
+418,Tyler Allen,Engineering,DevOps Engineer,2022-01-05,37,Male,Other,61655,1.4,8,,"Seattle, WA, USA",0
+419,Priya Sanchez,Engineering,Engineering Manager,2023-12-03,28,Female,White,114052,3.4,14,,"Chicago, IL, USA",0
+420,Hassan Brown,Operations,Operations Analyst,2021-08-16,24,Male,Hispanic,70017,1.3,2,,"San Francisco, CA, USA",1
+421,Mary Wright,Finance,Financial Analyst,2023-01-23,56,Female,Hispanic,77602,1.2,3,,"Austin, TX, USA",0
+422,Latoya Okafor,Support,Senior Support Agent,2023-09-21,59,Female,Asian,89920,1.3,28,,"San Francisco, CA, USA",0
+423,Maria Nguyen,Sales,Senior Sales Rep,2015-09-28,47,Female,Hispanic,109354,3.4,16,,"Chicago, IL, USA",1
+424,Sofia Rivera,Operations,Logistics Specialist,2019-06-21,46,Female,Hispanic,63677,1.4,19,,"Austin, TX, USA",0
+425,Yuki Mitchell,Engineering,Senior Software Engineer,2018-11-18,30,Female,Hispanic,105526,1.8,1,2023-10-18,"New York, NY, USA",0
+426,Omar Walker,Support,Support Agent,2018-01-01,35,Male,White,60561,4.9,4,2021-09-14,"Austin, TX, USA",0
+427,Angela Scott,Engineering,Senior Software Engineer,2022-01-28,62,Female,Asian,112512,1.3,5,2023-06-01,"Chicago, IL, USA",0
+428,Kevin Thompson,Engineering,Engineering Manager,2021-09-17,23,Male,Hispanic,143564,3.6,3,,"Austin, TX, USA",0
+429,Daniel White,HR,HR Specialist,2022-12-02,43,Male,Hispanic,45599,4.0,5,,"Chicago, IL, USA",0
+430,Raj Hernandez,Operations,Supply Chain Coordinator,2019-05-23,22,Male,White,60729,4.9,2,2023-02-17,"San Francisco, CA, USA",0
+431,Richard Carter,Engineering,Senior Software Engineer,2017-09-27,47,Male,Asian,108189,3.2,9,2022-06-14,"New York, NY, USA",0
+432,Wei Ahmed,Marketing,Marketing Manager,2019-05-20,46,Male,Hispanic,102149,2.8,10,,"Austin, TX, USA",1
+433,Ashley Green,Marketing,Marketing Analyst,2019-06-24,39,Female,Hispanic,72847,2.1,0,,"Austin, TX, USA",0
+434,Gabriela Johnson,Support,Support Team Lead,2022-12-28,35,Female,Other,89201,2.1,2,,"San Francisco, CA, USA",0
+435,Nancy Wright,Operations,Operations Manager,2020-09-10,26,Female,White,149282,4.5,10,2021-12-18,"San Francisco, CA, USA",0
+436,Margaret Harris,Sales,Senior Sales Rep,2021-01-13,36,Female,Hispanic,108835,2.8,0,,"Chicago, IL, USA",0
+437,Omar Hall,Support,Technical Support Engineer,2022-03-02,39,Male,Black,39161,1.3,4,,"Austin, TX, USA",0
+438,Barbara Walker,Engineering,Software Engineer,2016-08-01,30,Female,Hispanic,46616,4.3,3,2022-11-28,"San Francisco, CA, USA",0
+439,Betty Hill,Operations,Operations Analyst,2019-07-24,56,Female,White,40994,1.5,6,,"San Francisco, CA, USA",1
+440,Karen Tanaka,Operations,Operations Manager,2023-08-09,46,Female,White,98785,2.2,0,,"Seattle, WA, USA",0
+441,Matthew Carter,HR,Recruiter,2018-10-09,57,Male,Asian,57827,1.4,0,,"Chicago, IL, USA",0
+442,Carlos Davis,Engineering,Software Engineer,2023-09-22,55,Male,White,74564,2.6,11,,"Chicago, IL, USA",1
+443,Angela Lewis,Finance,Accountant,2015-08-17,60,Female,Black,75418,4.3,7,2021-03-11,"San Francisco, CA, USA",0
+444,Melissa Anderson,Engineering,DevOps Engineer,2022-10-09,34,Female,White,39934,1.2,19,,"New York, NY, USA",0
+445,Elizabeth Rivera,Engineering,Senior Software Engineer,2020-04-30,59,Female,Black,113206,1.3,1,2021-09-26,"San Francisco, CA, USA",0
+446,Stephanie Mitchell,Engineering,Software Engineer,2022-05-24,28,Female,Black,57204,2.2,0,,"New York, NY, USA",0
+447,Sofia Williams,Sales,Sales Manager,2021-12-19,27,Female,White,135699,2.2,26,,"New York, NY, USA",0
+448,Yuki Moore,Engineering,Senior Software Engineer,2018-08-09,33,Female,Hispanic,97693,2.6,10,,"Seattle, WA, USA",0
+449,Terrence Green,Operations,Logistics Specialist,2019-08-23,37,Male,White,55182,1.0,9,,"San Francisco, CA, USA",0
+450,Mary Kim,Finance,Senior Accountant,2018-11-17,24,Female,Hispanic,106951,1.5,14,2022-08-27,"Austin, TX, USA",0
+451,Carmen Ali,Operations,Logistics Specialist,2017-08-19,24,Female,Asian,55626,4.4,2,,"Chicago, IL, USA",0
+452,Hassan Robinson,Support,Technical Support Engineer,2015-01-31,58,Male,Other,65893,3.8,0,2016-05-10,"Seattle, WA, USA",0
+453,Blair Mensah,Finance,Accountant,2019-07-15,59,Non-Binary,Asian,75425,1.6,8,2020-07-26,"Chicago, IL, USA",0
+454,Matthew Robinson,HR,Recruiter,2018-05-13,26,Male,Other,40521,3.5,21,2022-06-13,"New York, NY, USA",1
+455,Nancy Gonzalez,Support,Technical Support Engineer,2023-04-28,60,Female,Black,70083,2.8,0,2024-05-09,"Austin, TX, USA",0
+456,Barbara Perez,Finance,Finance Manager,2017-09-04,37,Female,White,109740,3.4,1,,"San Francisco, CA, USA",0
+457,Keisha Harris,Support,Support Agent,2023-05-09,42,Female,White,79150,2.6,15,,"Seattle, WA, USA",0
+458,Derek Moore,Sales,Sales Rep,2020-05-27,30,Male,White,64216,4.2,5,2023-09-15,"San Francisco, CA, USA",0
+459,Carlos Carter,Finance,Financial Analyst,2017-10-14,37,Male,Hispanic,52197,2.2,8,2023-09-26,"New York, NY, USA",0
+460,Thomas Ramirez,Sales,Senior Sales Rep,2015-04-13,59,Male,Hispanic,102536,1.8,10,2019-05-31,"San Francisco, CA, USA",0
+461,Brandon Khan,Sales,Sales Manager,2021-05-09,52,Male,Hispanic,123761,1.5,1,,"Chicago, IL, USA",0
+462,Donna Torres,Marketing,Marketing Manager,2015-11-16,47,Female,Black,105890,3.1,1,2020-04-26,"Chicago, IL, USA",0
+463,Stephanie Jackson,HR,Recruiter,2019-06-25,33,Female,Black,53017,1.8,3,,"Austin, TX, USA",0
+464,Maria Patel,Marketing,Content Strategist,2015-05-03,32,Female,Hispanic,74465,4.0,0,2021-02-02,"Chicago, IL, USA",0
+465,Robert Kim,Engineering,QA Engineer,2015-03-16,60,Male,Hispanic,51340,3.9,1,,"Austin, TX, USA",0
+466,David Brown,Marketing,Marketing Analyst,2016-01-06,49,Male,Hispanic,72881,2.2,4,2024-02-20,"San Francisco, CA, USA",0
+467,Matthew Hall,Sales,Account Executive,2023-02-20,23,Male,Asian,97418,4.9,0,,"Chicago, IL, USA",1
+468,Brandon Nguyen,Support,Support Team Lead,2019-10-05,55,Male,White,115248,4.7,0,,"Austin, TX, USA",1
+469,Angela Wright,Support,Support Team Lead,2023-12-22,50,Female,Black,100368,3.0,1,,"Chicago, IL, USA",0
+470,Joseph Hill,Engineering,Senior Software Engineer,2023-06-06,47,Male,White,107601,2.5,0,,"San Francisco, CA, USA",0
+471,Aaron Miller,Support,Support Team Lead,2017-05-25,59,Male,White,96222,4.4,8,,"Chicago, IL, USA",0
+472,Latoya Adams,Finance,Finance Manager,2018-02-12,40,Female,White,131128,4.2,10,2023-01-08,"Chicago, IL, USA",1
+473,Benjamin Lee,Engineering,Senior Software Engineer,2021-07-14,35,Male,Black,115437,4.9,14,,"Chicago, IL, USA",0
+474,Patricia Rodriguez,Marketing,Content Strategist,2017-01-07,23,Female,Asian,90572,3.5,7,,"Seattle, WA, USA",0
+475,Keisha Diaz,Engineering,Software Engineer,2023-01-20,61,Female,Hispanic,59951,2.2,10,,"Seattle, WA, USA",0
+476,Rebecca King,Operations,Logistics Specialist,2017-03-17,43,Female,White,68853,2.5,4,2023-03-22,"San Francisco, CA, USA",0
+477,Ashley Lewis,Sales,Sales Rep,2018-05-13,30,Female,White,69881,1.1,7,,"New York, NY, USA",1
+478,Thomas Carter,Sales,Sales Manager,2017-07-09,62,Male,White,117824,2.5,2,,"New York, NY, USA",1
+479,Amit Gonzalez,Finance,Financial Analyst,2016-12-08,52,Male,White,85617,2.7,9,2018-06-17,"Chicago, IL, USA",1
+480,Hassan Adams,Marketing,Marketing Analyst,2015-12-20,47,Male,White,90287,1.3,5,2022-12-16,"Seattle, WA, USA",1
+481,Carmen Anderson,Operations,Logistics Specialist,2021-08-01,54,Female,Hispanic,55619,4.6,1,2022-10-24,"Seattle, WA, USA",0
+482,Casey Gonzalez,Finance,Financial Analyst,2015-04-09,49,Non-Binary,Asian,89771,3.0,30,2017-11-26,"New York, NY, USA",0
+483,Nancy Mitchell,Sales,Account Executive,2019-03-12,48,Female,White,140105,4.5,1,,"New York, NY, USA",0
+484,Sofia Kim,Support,Senior Support Agent,2024-04-26,50,Female,White,83596,2.2,17,,"San Francisco, CA, USA",0
+485,Amit King,HR,HR Specialist,2018-09-03,59,Male,Asian,74064,4.1,5,2020-10-21,"Chicago, IL, USA",0
+486,Elizabeth Khan,HR,HR Specialist,2024-04-08,41,Female,White,40867,2.1,0,,"Chicago, IL, USA",1
+487,Derek Allen,Sales,Sales Manager,2017-11-23,52,Male,Other,97162,1.1,5,,"New York, NY, USA",0
+488,Andre Baker,Support,Senior Support Agent,2020-03-05,51,Male,Hispanic,113988,3.2,0,,"Austin, TX, USA",0
+489,William Khan,Finance,Senior Accountant,2017-09-22,62,Male,White,102791,3.1,1,,"San Francisco, CA, USA",0
+490,Andrew Davis,Marketing,Marketing Manager,2018-08-11,39,Male,Other,105136,1.3,9,2019-09-28,"Austin, TX, USA",0
+491,Susan Adams,Support,Support Team Lead,2021-03-22,38,Female,White,134797,1.1,8,2022-10-27,"New York, NY, USA",1
+492,Brandon Thomas,Operations,Supply Chain Coordinator,2023-04-25,54,Male,Asian,47431,3.9,30,2024-04-27,"Chicago, IL, USA",0
+493,Casey Taylor,Engineering,DevOps Engineer,2017-08-24,42,Non-Binary,Hispanic,63374,3.2,18,,"Seattle, WA, USA",0
+494,Tanya Lewis,Finance,Finance Manager,2019-09-18,60,Female,Asian,150000,2.3,5,,"New York, NY, USA",0
+495,Aisha Hernandez,Sales,Sales Rep,2015-12-06,54,Female,White,55794,1.1,2,,"Seattle, WA, USA",1
+496,Laura Johnson,Engineering,QA Engineer,2017-10-26,43,Female,Black,75208,2.5,4,,"Austin, TX, USA",0
+497,Andrew Rivera,Engineering,Engineering Manager,2019-10-22,37,Male,Hispanic,150000,3.6,19,,"San Francisco, CA, USA",0
+498,Miguel Jones,Engineering,Software Engineer,2018-11-08,47,Male,Black,51557,3.5,5,2021-10-10,"Austin, TX, USA",0
+499,Amanda Ahmed,Sales,Account Executive,2019-07-15,44,Female,Black,115442,4.3,18,,"Chicago, IL, USA",0
+500,William Roberts,Finance,Accountant,2023-10-02,43,Male,White,54554,2.2,5,,"Chicago, IL, USA",0
